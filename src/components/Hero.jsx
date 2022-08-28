@@ -5,7 +5,6 @@ import { BsFillCloudLightningFill,BsPlayFill} from "react-icons/bs";
 import {
   FaGooglePlay,
   FaAppStore,
-  FaDesktop,
   FaWindows,
 } from 'react-icons/fa';
 
