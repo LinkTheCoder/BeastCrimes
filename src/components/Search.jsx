@@ -1,7 +1,4 @@
 import React from 'react';
-import { RiCustomerService2Full, RiCustomerService2Fill } from 'react-icons/ri';
-import { MdOutlineTravelExplore } from 'react-icons/md';
-import Characters from '../assets/Characters.png';
 import Profiles from '../assets/Profiles.jpg';
 import Carousel from '../components/Carousel';
 
