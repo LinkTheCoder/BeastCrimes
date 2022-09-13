@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
       <div>
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}></h1>
-        <img className="mt-10" src={Logo} width={400} alt="/" />
+        <img className="mt-10 w-80" src={Logo} alt="/" />
       </div>
       <ul className='hidden md:flex'>
       <li><a href="#Home">Home</a></li>

@@ -9,7 +9,7 @@ const Search = () => {
         <div>
           <h2 id="Characters" className='text-red-800'>Characters</h2>
           <p className='py-4 text-white'>
-          From Wolves To Cyborgs
+          From Hyenas To Cyborgs
           </p>
           <Carousel />
 

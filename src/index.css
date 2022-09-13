@@ -21,10 +21,6 @@ body {
   --primary-light: #709dff;
 }
 
-.icon {
-  color: #FF5733;
-}
-
 @layer base {
   body {
     @apply font-[Poppins]
