@@ -22,6 +22,7 @@ const Navbar = () => {
         <li><a href="#Cases">Cases</a></li>
         <li><a href="#Characters">Characters</a></li>
         <li><a href="#Features">Features</a></li>
+        <li><a href="#Subscribe">Subscribe</a></li>
       </ul>
 
       {/* Hamburger */}
@@ -34,9 +35,10 @@ const Navbar = () => {
         <ul>
           <h1>BEAST CRIMES</h1>
           <li><a href="#Home">Home</a></li>
-        <li><a href="#Cases">CASES</a></li>
+        <li><a href="#Cases">Cases</a></li>
         <li><a href="#Characters">Characters</a></li>
         <li><a href="#Features">Features</a></li>
+        <li><a href="#Subscribe">Subscribe</a></li>
           <div className='flex flex-col'>
           </div>
         </ul>

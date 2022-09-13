@@ -14,7 +14,7 @@ const Hero = () => {
         className='w-full h-full object-cover'
         src={Wallpaper}
       />
-      <div className='absolute w-full h-full top-0 left-0 bg-black/40'></div>
+      <div className='absolute w-full h-full top-0 left-0 bg-black/30'></div>
       <div className='absolute bottom-20 w-full h-full flex flex-col justify-center text-center text-white p-4'>
         <h2 id="outline" className='py-4'>Are you able to solve crimes regardless the outcome?</h2>
 
