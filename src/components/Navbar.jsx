@@ -15,11 +15,11 @@ const Navbar = () => {
     <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
       <div>
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}></h1>
-        <img src={Logo} alt="/" />
+        <img className="mt-10" src={Logo} width={400} alt="/" />
       </div>
       <ul className='hidden md:flex'>
       <li><a href="#Home">Home</a></li>
-        <li><a href="#World">World</a></li>
+        <li><a href="#Cases">Cases</a></li>
         <li><a href="#Characters">Characters</a></li>
         <li><a href="#Features">Features</a></li>
       </ul>
@@ -32,9 +32,9 @@ const Navbar = () => {
       {/* Mobile menu dropdown */}
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
-          <h1>GENSHIN IMPACT</h1>
+          <h1>BEAST CRIMES</h1>
           <li><a href="#Home">Home</a></li>
-        <li><a href="#World">World</a></li>
+        <li><a href="#Cases">CASES</a></li>
         <li><a href="#Characters">Characters</a></li>
         <li><a href="#Features">Features</a></li>
           <div className='flex flex-col'>

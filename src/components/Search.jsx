@@ -7,9 +7,9 @@ const Search = () => {
     <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-3'>
       <div className='lg:col-span-2 flex flex-col justify-evenly'>
         <div>
-          <h2 id="Characters">Exciting Characters</h2>
-          <p className='py-4'>
-          From Bards To Warriors
+          <h2 id="Characters" className='text-red-800'>Characters</h2>
+          <p className='py-4 text-white'>
+          From Wolves To Cyborgs
           </p>
           <Carousel />
 

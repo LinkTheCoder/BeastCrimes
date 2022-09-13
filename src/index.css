@@ -8,6 +8,14 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: black;
+}
+
+#outline {
+  -webkit-text-stroke: 2px black;
+}
+
 :root {
   --primary-dark: #5651e5;
   --primary-light: #709dff;
