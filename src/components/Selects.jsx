@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Quest from '../assets/Quest.jpg';
-import Craft from '../assets/Craft.jpg';
+import Investigate from '../assets/Investigate.png';
+import Interrogate from '../assets/Interrogate.png';
 import Cooking from '../assets/Cooking.webp';
 import Fishing from '../assets/Fishing.jpg';
-import Dungeon from '../assets/Dungeon.jpg';
-import Events from '../assets/Events.jpg';
+import Inventory from '../assets/Inventory.png';
+import Journal from '../assets/Journal.png';
 import SelectsCard from './SelectsCard';
 
 
@@ -17,12 +17,12 @@ const Selects = () => {
 
       <div className='max-w-[1240px] mx-auto px-4 py-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
 
-      <SelectsCard bg={Quest} text='Investigate' />
-      <SelectsCard bg={Craft} text='Interrogate' />
+      <SelectsCard bg={Investigate} text='Investigate' />
+      <SelectsCard bg={Interrogate} text='Interrogate' />
       <SelectsCard bg={Cooking} text='Multiple Endings' />
       <SelectsCard bg={Fishing} text='Puzzle' />
-      <SelectsCard bg={Dungeon} text='Inventory' />
-      <SelectsCard bg={Events} text='Journal' />
+      <SelectsCard bg={Inventory} text='Inventory' />
+      <SelectsCard bg={Journal} text='Journal' />
 
 
     </div></>
