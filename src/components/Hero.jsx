@@ -19,13 +19,13 @@ const Hero = () => {
         <h2 id="outline" className='py-4'>Are you able to solve crimes regardless the outcome?</h2>
 
         <div className="flex justify-center items-center m-6">
-					<a href="https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=sv&gl=US" className="mx-3 hover:opacity-80 duration-150">
+					<a href="https://store.steampowered.com/app/1571090/Beast_Crimes/" className="mx-3 hover:opacity-80 duration-150">
 					<FaSteam size="3em"/>
 					</a>
-          <a href="#" className="mx-3 hover:opacity-80 duration-150">
+          <a href="https://discord.gg/ZHhcMFAG2s" className="mx-3 hover:opacity-80 duration-150">
 					<FaDiscord size="3em"/>
 					</a>   
-          <a href="https://www.nvidia.com/sv-se/geforce-now/#" className="mx-3 hover:opacity-80 duration-150">
+          <a href="#" className="mx-3 hover:opacity-80 duration-150">
 					<BsFillCloudLightningFill size="3em"/>
 					</a>    
 					</div>
