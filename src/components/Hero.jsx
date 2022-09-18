@@ -1,6 +1,6 @@
 import React from 'react';
 import Wallpaper from '../assets/HeroImage.png';
-import { BsFillCloudLightningFill,BsPlayFill} from "react-icons/bs";
+import {BsPlayFill} from "react-icons/bs";
 import {
   FaSteam,
   FaDiscord,
@@ -25,15 +25,14 @@ const Hero = () => {
           <a href="https://discord.gg/ZHhcMFAG2s" className="mx-3 hover:opacity-80 duration-150">
 					<FaDiscord size="3em"/>
 					</a>   
-          <a href="#" className="mx-3 hover:opacity-80 duration-150">
-					<BsFillCloudLightningFill size="3em"/>
-					</a>    
 					</div>
 
           <div>
+          <a href="#Trailer">
           <button class="m-2 inline-block align-middle bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-2 rounded-full border border-white">
           <BsPlayFill size="2em"/>
 </button>
+</a>
     </div>
     </div>
     </div>

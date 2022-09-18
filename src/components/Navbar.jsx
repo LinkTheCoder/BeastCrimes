@@ -22,6 +22,7 @@ const Navbar = () => {
         <li><a href="#Cases">Cases</a></li>
         <li><a href="#Characters">Characters</a></li>
         <li><a href="#Features">Features</a></li>
+        <li><a href="#Trailer">Trailer</a></li>
         <li><a href="#Subscribe">Subscribe</a></li>
       </ul>
 
@@ -38,6 +39,7 @@ const Navbar = () => {
         <li><a href="#Cases">Cases</a></li>
         <li><a href="#Characters">Characters</a></li>
         <li><a href="#Features">Features</a></li>
+        <li><a href="#Trailer">Trailer</a></li>
         <li><a href="#Subscribe">Subscribe</a></li>
           <div className='flex flex-col'>
           </div>

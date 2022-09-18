@@ -1,20 +1,23 @@
 import React from 'react';
-import Destinations from './components/Destinations';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Search from './components/Search';
-import Selects from './components/Selects';
+import Hero from './components/Hero';
+import Cases from './components/Cases';
+import Characters from './components/Characters';
+import Trailer from './components/Trailer';
+import Features from './components/Features';
 import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Destinations />
-      <Search />
-      <Selects />
+      <Cases />
+      <Characters />
+      <Features />
+      <Trailer />
       <Subscribe />
       <Footer />
     </div>
