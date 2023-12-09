@@ -12,7 +12,7 @@ export default function Story() {
       </div><div className="sm:p-0 lg:p-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5">
       <Cards image={NeoTokyo} title='NEO TOKYO' />
       <Cards image={AncientEgypt} title='ANCIENT EGYPT' />
-      <Cards image={Century} title='2ST CENTURY'/>
+      <Cards image={Century} title='21ST CENTURY'/>
         </div></>
   )
 }
