@@ -14,23 +14,6 @@ background-color: #000000;
   text-shadow: -1px -1px 0 black, 2px -2px 0 black, -1px 1px 0 black, 1px 2px 0 black;
 }
 
-.fade-in {
-  opacity: 0;
-  animation: fadeInAnimation 2s ease-in-out forwards;
-}
-
-.fade-in-delay {
-  opacity: 0;
-  animation: fadeInAnimation 2s ease-in-out forwards;
-  animation-delay: 1s;
-}
-
-.fade-in-last {
-  opacity: 0;
-  animation: fadeInAnimation 2s ease-in-out forwards;
-  animation-delay: 2s;
-}
-
 @keyframes fadeInAnimation {
   from {
     opacity: 0;

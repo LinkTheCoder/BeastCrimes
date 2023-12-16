@@ -1,7 +1,7 @@
-import Cards from '../../components/home/Cards'
+import Cards from './Cards'
 import NeoTokyo from '../../public/img/NeoTokyo.jpg';
 import AncientEgypt from '../../public/img/AncientEgypt.jpg';
-import Century from '../../public/img/21stCentury.jpg';
+import Century from '../../public/img/Century.png';
 
 export default function Story() {
     return ( 
@@ -10,9 +10,10 @@ export default function Story() {
           STORY
         </h1>
       </div><div className="sm:p-0 lg:p-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-      <Cards image={NeoTokyo} title='NEO TOKYO' />
-      <Cards image={AncientEgypt} title='ANCIENT EGYPT' />
-      <Cards image={Century} title='21ST CENTURY'/>
+     
+      <Cards image={NeoTokyo} title='NEO TOKYO' link='/neo-tokyo'/>
+      <Cards image={AncientEgypt} title='ANCIENT EGYPT' link='/ancient-egypt'/>
+      <Cards image={Century} title='21ST CENTURY'link='/21st-century'/>
         </div></>
   )
 }

@@ -1,5 +1,4 @@
-import Cards from '../../components/home/CardsInfo'
-import NeoTokyo from '../../public/img/NeoTokyo.jpg';
+import Cards from './CardsInfo'
 import Characters from '../../public/img/Characters.png';
 import Gameplay from '../../public/img/Gameplay.png';
 

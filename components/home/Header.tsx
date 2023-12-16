@@ -24,13 +24,13 @@ const Header = () => {
     <div id="Home" className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-screen'>
       {/* Left Column */}
       <div className='lg:ml-20 relative flex flex-col justify-center text-white p-4 lg:order-first md: order-last'>
-        <Image className="lg:w-3/4 mx-auto sm:w-full fade-in-delay" src={Logo} alt="/" />
+        <Image className="lg:w-3/4 mx-auto sm:w-full" src={Logo} alt="/" />
 
-        <h2 className='mt-5 text-3xl text-red-800 font-normal text-center fade-in-delay'>
+        <h2 className='mt-5 text-3xl text-red-800 font-normal text-center'>
           CRIMES ACROSS TIMES
         </h2>
 
-        <div className='flex justify-center items-center mt-5 fade-in-delay'>
+        <div className='flex justify-center items-center mt-5'>
           <a
             href='https://store.steampowered.com/app/1571090/Beast_Crimes/'
             className='hover:opacity-80 duration-150 mx-3'
@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       {/* Right Column */}
-      <div className='relative fade-in'>
+      <div className='relative'>
         <Image
           className='w-full h-full object-cover object-left lg:object-left'
           src={Wallpaper}
