@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Milton Ek",
+      "description": "Flatmate with Sky since years back. Sky is to Milton the most important person in his life.",
+      "image": "./img/characters/Milton.png"
+    },
+    {
+      "name": "Sky Goldscheider",
+      "description": " Sky has lost conection with their family due to personal reasons. Milton is like a family to Sky and they would do anything for them.",
+      "image": "./img/characters/Sky.png"
+    },
+    {
+      "name": "Neo Faneva",
+      "description": "An old friend to Sky that nowdays owns a coffe shop",
+      "image": "./img/characters/Neo.png"
+    },
+    {
+      "name": "Francine Bennett",
+      "description": "Outgoing girl working as waitress at the Bean' There Barista.",
+      "image": "./img/characters/Francine.png"
+    },
+    {
+      "name": "Sasha Vasiliev",
+      "description": "Girlfriend to Paz, tries to slowly move on from Paz Esparza's death.",
+      "image": "./img/characters/Sasha.png"
+    },
+    {
+      "name": "Hyeon Yun",
+      "description": "A shark with information about Paz's death. Owner of the restaurant CodFather.",
+      "image": "./img/characters/Hyeon.png"
+    },
+    {
+      "name": "London York",
+      "description": "Suspect to be the same eagle who killed Paz Esparza, works in the same company.",
+      "image": "./img/characters/London.png"
+    },
+    {
+      "name": "Bion Evans",
+      "description": "Newly graduated from polytechnics, despite young age already skilled in bomb clearing.",
+      "image": "./img/characters/Bion.png"
+    },
+    {
+      "name": "666",
+      "description": "A thief first spotted outside Jay's Jewelery.",
+      "image": "./img/characters/666.png"
+    }
+  ]
+  

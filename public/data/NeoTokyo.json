@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Seiko Setsuna",
+      "description": "A kid who can't remember the reason to why they were put in an orphan.",
+      "image": "./img/characters/Seiko.png"
+    },
+    {
+      "name": "Jun Izumi",
+      "description": "A kid who where put in an orphan due to family abuse.",
+      "image": "./img/characters/Jun.png"
+    },
+    {
+      "name": "Asahi Kaede",
+      "description": "A kid who where put in an orphan due to family with economic problems",
+      "image": "./img/characters/Asahi.png"
+    },
+    {
+      "name": "Chihiro Fumiyo",
+      "description": "VP of Fumiyo corporation, partner to Amane Fumiyo and parent to Retsu Fumiyo.",
+      "image": "./img/characters/Chihiro.png"
+    },
+    {
+      "name": "Retsu Fumiyo",
+      "description": "Owner of Volticity corporation, adoptive child to Chihiro Fumiyo and Amane Fumiyo.",
+      "image": "./img/characters/Fumiyo.png"
+    },
+    {
+      "name": "Kazu Satori",
+      "description": "Valet for the Fumiyo family.",
+      "image": "./img/characters/Satori.png"
+    },
+    {
+      "name": "Mako Yoshie",
+      "description": "Haidresser on the shinkansen train between New Sydney and Neo Tokyo.",
+      "image": "./img/characters/Yoshie.png"
+    }
+  ]
+  

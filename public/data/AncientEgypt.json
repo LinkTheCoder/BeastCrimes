@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Anubis",
+      "description": "He helps to decied people's fate in the afterlife with help of Scale of Justice.",
+      "image": "./img/characters/Anubis.png"
+    },
+    {
+      "name": "Wepwawet",
+      "description": "A scout who reports about invaders. Brother to Anubis.",
+      "image": "./img/characters/Wepwawet.png"
+    },
+    {
+      "name": "Sekhmet",
+      "description": "A fiercy lioness warrior. Daughter of Ra.",
+      "image": "./img/characters/Sekhmet.png"
+    },
+    {
+      "name": "Seth",
+      "description": " The lord of the desert. Father to Anubis and Wepwawet.",
+      "image": "./img/characters/Seth.png"
+    },
+    {
+      "name": "Thoth",
+      "description": "In training to become worthy the title god of wisdom. Currently studying under a non-god animal called Zosar.",
+      "image": "./img/characters/Thoth.png"
+    },
+    {
+      "name": "Taweret",
+      "description": "God of Childbirth and one of the three protectors of the Nile.",
+      "image": "./img/characters/Taweret.png"
+    },
+    {
+      "name": "Khnum",
+      "description": "God of the Source of the Nile. Also one of the three protectors of the Nile.",
+      "image": "./img/characters/Khnum.png"
+    },
+    {
+      "name": "Sobek",
+      "description": "War Deity of the Nile. Also one of the three protectors of the Nile.",
+      "image": "./img/characters/Sobek.png"
+    },
+    {
+      "name": "Nekhbet",
+      "description": "A deity who is sister to the god Wadjet.",
+      "image": "./img/characters/Nekhbet.png"
+    },
+    {
+      "name": "Wadjet",
+      "description": "A deity who is sister to the god Nekhbet.",
+      "image": "./img/characters/Wadjet.png"
+    },
+    {
+      "name": "Bastet",
+      "description": "A deity who is trying to bring peace in Egypt. Daughter to Ra, sister to Hathor, Sekhmet and Maat. Half-sister to Tefnut.",
+      "image": "./img/characters/Bastet.png"
+    },
+    {
+      "name": "Hathor",
+      "description": "A deity who is trying to bring peace in Egypt. Daughter to Ra, sister to Hathor, Sekhmet and Maat. Half-sister to Tefnut.",
+      "image": "./img/characters/Hathor.png"
+    }
+  ]
+  

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CardsInfo = (props) => {
   return (
@@ -10,6 +11,11 @@ const CardsInfo = (props) => {
         <p className="text-red-800 font-semibold">
        {props.description}
       </p>
+      <Link href={props.link}>
+          <button className="bg-red-800 text-white py-2 px-4 rounded-full inline-block mt-3 hover:bg-red-700 transition-colors">
+            LEARN MORE
+          </button>
+        </Link>
       </div>
       <div className="px-6 pb-2 text-center md:mb-0">
       </div>
