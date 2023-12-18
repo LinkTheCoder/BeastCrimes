@@ -21,7 +21,7 @@ const Header = () => {
 
 
   return (
-    <div id="Home" className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-screen'>
+    <div id="home" className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-screen'>
       {/* Left Column */}
       <div className='lg:ml-20 relative flex flex-col justify-center text-white p-4 lg:order-first md: order-last'>
         <Image className="lg:w-3/4 mx-auto sm:w-full" src={Logo} alt="/" />

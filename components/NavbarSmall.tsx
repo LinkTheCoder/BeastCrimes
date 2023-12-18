@@ -83,7 +83,7 @@ export default function NavbarSmall() {
                 <FaHome />
                 <Link
                   className="ml-1 mr-5 hover:text-red-600"
-                  href="/#Home"
+                  href="/#home"
                   onClick={toggleModal}
                 >
                   HOME
@@ -94,7 +94,7 @@ export default function NavbarSmall() {
                 <FaCircleInfo />
                 <Link
                   className="ml-1 mr-5 hover:text-red-600"
-                  href="/Playstation"
+                  href="/#about"
                   onClick={toggleModal}
                 >
                   ABOUT
@@ -105,7 +105,7 @@ export default function NavbarSmall() {
                 <BsChatQuoteFill />
                 <Link
                   className="ml-1 mr-5 hover:text-red-600"
-                  href="/#Story"
+                  href="/#story"
                   onClick={toggleModal}
                 >
                   STORY
@@ -116,7 +116,7 @@ export default function NavbarSmall() {
                 <FaGamepad />
                 <Link
                   className="ml-1 mr-5 hover:text-red-600"
-                  href="/#Gameplay"
+                  href="/gameplay"
                   onClick={toggleModal}
                 >
                   GAMEPLAY
@@ -127,7 +127,7 @@ export default function NavbarSmall() {
                 <FaUserGroup />
                 <Link
                   className="ml-1 mr-5 hover:text-red-600"
-                  href="/#Characters"
+                  href="/characters"
                   onClick={toggleModal}
                 >
                   CHARACTERS

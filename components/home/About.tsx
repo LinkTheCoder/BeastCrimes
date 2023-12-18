@@ -5,7 +5,7 @@ import Seiko from '../../public/img/Seiko.png';
 const About = () => {
 
   return (
-    <div id='About' className='md:mt-64 relative lg:mt-24 mx-auto py-16 px-4 bg-[url(/img/BG.gif)] bg-cover'>
+    <div id='about' className='md:mt-64 relative lg:mt-24 mx-auto py-16 px-4 bg-[url(/img/BG.gif)] bg-cover'>
       <div className='absolute inset-0 flex items-center'>
         <div>
           <Image src={Seiko} alt='' className='ml-5 mt-14 w-2/4 hidden lg:block' />

@@ -13,23 +13,23 @@ const Navbar = () => {
       <ul className="ml-10 m-4 hidden lg:flex space-x-8 font-black">
         <li className="flex items-center space-x-2">
           <FaHome size='1.5em' color="darkred" />
-          <Link href="/#Home">HOME</Link>
+          <Link href="/#home">HOME</Link>
         </li>
         <li className="flex items-center space-x-2">
           <FaCircleInfo size='1.5em' color="darkred" />
-          <Link href="/#About">ABOUT</Link>
+          <Link href="/#about">ABOUT</Link>
         </li>
         <li className="flex items-center space-x-2">
           <BsChatQuoteFill size='1.5em' color="darkred" />
-          <Link href="/#Story">STORY</Link>
+          <Link href="/#story">STORY</Link>
         </li>
         <li className="flex items-center space-x-2">
           <FaGamepad size='1.5em' color="darkred" />
-          <Link href="/#Gameplay">GAMEPLAY</Link>
+          <Link href="/gameplay">GAMEPLAY</Link>
         </li>
         <li className="flex items-center space-x-2">
           <FaUserGroup size='1.5em' color="darkred" />
-          <Link href="/#Characters">CHARACTERS</Link>
+          <Link href="/characters">CHARACTERS</Link>
         </li>
         {/* <li className="flex items-center space-x-2">
           <FaNewspaper size='1.5em' color="darkred" />

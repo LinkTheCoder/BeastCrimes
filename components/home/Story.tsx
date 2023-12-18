@@ -5,7 +5,7 @@ import Century from '../../public/img/Century.png';
 
 export default function Story() {
     return ( 
-      <><div id='Story' className='lg:mt-44 sm:mt-4 md:mt-16'>
+      <><div id='story' className='lg:mt-44 sm:mt-4 md:mt-16'>
          <h1 className='text-center text-red-800 text-4xl font-black'>
           STORY
         </h1>
