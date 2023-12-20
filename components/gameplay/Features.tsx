@@ -33,7 +33,7 @@ const Features = () => {
 </div>
         <div>
           <CardsLeft title='Past mysterium'
-            list1='⚖️ SCALE OF JUSTICE: Your choice of questions and their answers will decied the fate'
+            list1='⚖️ SCALE OF JUSTICE: Your choice of questions and their answers will decide the fate'
             list2='🔓 THE EYE OF WISDOM: See the true thoughts of people who are lying'
             list3='🩸 DOWSING ROD: Use a dowsing rod to find body parts.'
             list4="😈 EMOTION DETECTOR: Observe people's true emotions"
