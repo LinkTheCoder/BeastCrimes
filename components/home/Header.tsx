@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import React, { useState } from 'react';
 import Wallpaper from '../../public/img/Wallpaper.png';
@@ -18,7 +18,6 @@ const Header = () => {
   const closeVideoModal = () => {
     setShowVideo(false);
   };
-
 
   return (
     <div id="home" className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-screen'>
@@ -61,16 +60,14 @@ const Header = () => {
       {showVideo && (
         <div className="z-10 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative w-3/4 h-3/4 max-w-2xl max-h-96">
-            <div className="absolute top-0 right-0 m-1 cursor-pointer" onClick={closeVideoModal}>
-            <FaXmark size='1.7em' color="white" />
+            <div className="absolute top-0 right-0 m-1 cursor-pointer z-20" onClick={closeVideoModal}>
+              <FaXmark size='1.7em' color="white" />
             </div>
-            
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/WojJq77VbY4"
-              title="YouTube Video"
-              allowFullScreen
-            ></iframe>
+
+            <video className="w-full h-full z-10" controls autoPlay>
+              <source src="/video/Trailer.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       )}
