@@ -63,11 +63,13 @@ const Header = () => {
             <div className="absolute top-0 right-0 m-1 cursor-pointer z-20" onClick={closeVideoModal}>
               <FaXmark size='1.7em' color="white" />
             </div>
-
-            <video className="w-full h-full z-10" controls autoPlay>
-              <source src="/video/Trailer.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+        className="w-full h-full z-10"
+        src="https://www.youtube.com/embed/NSj-7yUlCHs"
+        title="YouTube Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
           </div>
         </div>
       )}
