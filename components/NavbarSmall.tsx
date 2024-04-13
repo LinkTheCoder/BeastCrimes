@@ -2,9 +2,10 @@
 import React from "react";
 import { useState } from "react";
 import Link from 'next/link';
-import { FaHome, FaGamepad, FaBars } from "react-icons/fa";
+import { FaHome, FaGamepad, FaBars, FaTimes } from "react-icons/fa";
 import { FaCircleInfo, FaUserGroup } from "react-icons/fa6";
 import { BsChatQuoteFill } from "react-icons/bs";
+import { FaYoutube, FaTiktok, FaSteam } from "react-icons/fa"; // Import social media icons
 
 export default function NavbarSmall() {
   const [showModal, setShowModal] = useState(false);
@@ -77,8 +78,14 @@ export default function NavbarSmall() {
           <div className="fixed inset-0 bg-black opacity-50"></div>
           {/* Dark overlay */}
           <div className="bg-gray-900 rounded-lg p-6 relative z-10">
+            {/* Close button */}
+            <button
+              className="absolute top-2 right-2"
+              onClick={toggleModal}
+            >
+              <FaTimes className="text-red-700 hover:text-red-600" size="1.5em" />
+            </button>
             <ul className="font-bold text-red-700 space-y-6 text-lg">
-
               <div className="flex items-center">
                 <FaHome />
                 <Link
@@ -133,20 +140,22 @@ export default function NavbarSmall() {
                   CHARACTERS
                 </Link>
               </div>
-              <div className="flex items-center">    
-    <div>
-    </div>
-</div>      
             </ul>
-            <button
-              className="mt-6 bg-red-800 hover:bg-red-900 text-white font-bold py-2 px-4 rounded"
-              onClick={toggleModal}
-            >
-              CLOSE
-            </button>
+            {/* Social media icons */}
+            <div className="flex justify-left mt-6 space-x-4">
+              <a className='hover:opacity-80 duration-150' href="https://store.steampowered.com/app/1571090/BEAST_CRIMES/">
+                <FaSteam className="text-red-700" size="2em" />
+              </a>
+              <a className='hover:opacity-80 duration-150' href="https://www.tiktok.com/@beast.crimes">
+                <FaTiktok className="text-red-700" size="2em" />
+              </a>
+              <a className='hover:opacity-80 duration-150' href="https://www.youtube.com/@BEASTCRIMES">
+                <FaYoutube className="text-red-700" size="2em" />
+              </a>
+            </div>
           </div>
         </div>
-      )}      
+      )}
     </footer>
   );
 }
