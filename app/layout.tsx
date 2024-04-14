@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'BEAST CRIMES',
-  description: 'MYSTERY GAME',
+  description: 'Crimes across the times. Are you able to solve them all?',
+  metadataBase: new URL('https://www.beastcrimes.com/'),
 };
 
 export default function RootLayout({ children }) {
