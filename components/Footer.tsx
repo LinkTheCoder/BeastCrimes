@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaYoutube, FaTiktok, FaSteam } from 'react-icons/fa'; // Importing YouTube and TikTok icons
+import { FaYoutube, FaEnvelope, FaSteam } from 'react-icons/fa'; // Importing YouTube and TikTok icons
 import Logo from '../public/img/Logo.png';
 import Image from 'next/image';
 
@@ -13,9 +13,9 @@ const Footer = () => {
           <FaSteam className="text-red-700 text-3xl mr-2" />
         </a>
 
-            {/* TikTok Icon */}
-            <a  className='hover:opacity-80 duration-150 mx-3' href="https://www.tiktok.com/@beast.crimes">
-          <FaTiktok className="text-red-700 text-3xl mr-2" />
+                          {/* Email Icon */}
+                          <a  className='hover:opacity-80 duration-150 mx-3' href="mailto:beastcrimes@gmail.com">
+          <FaEnvelope className="text-red-700 text-3xl mr-2" />
         </a>
 
           {/* YouTube Icon */}

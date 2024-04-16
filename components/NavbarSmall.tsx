@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FaHome, FaGamepad, FaBars, FaTimes } from "react-icons/fa";
 import { FaCircleInfo, FaUserGroup } from "react-icons/fa6";
 import { BsChatQuoteFill } from "react-icons/bs";
-import { FaYoutube, FaTiktok, FaSteam } from "react-icons/fa"; // Import social media icons
+import { FaYoutube, FaEnvelope, FaSteam } from "react-icons/fa"; // Import social media icons
 
 export default function NavbarSmall() {
   const [showModal, setShowModal] = useState(false);
@@ -146,9 +146,11 @@ export default function NavbarSmall() {
               <a className='hover:opacity-80 duration-150' href="https://store.steampowered.com/app/1571090/BEAST_CRIMES/">
                 <FaSteam className="text-red-700" size="2em" />
               </a>
-              <a className='hover:opacity-80 duration-150' href="https://www.tiktok.com/@beast.crimes">
-                <FaTiktok className="text-red-700" size="2em" />
+
+              <a className='hover:opacity-80 duration-150' href="mailto:beastcrimes@gmail.com">
+                <FaEnvelope className="text-red-700" size="2em" />
               </a>
+              
               <a className='hover:opacity-80 duration-150' href="https://www.youtube.com/@BEASTCRIMES">
                 <FaYoutube className="text-red-700" size="2em" />
               </a>
