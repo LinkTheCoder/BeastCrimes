@@ -151,9 +151,6 @@ export default function NavbarSmall() {
                 <FaEnvelope className="text-red-700" size="2em" />
               </a>
               
-              <a className='hover:opacity-80 duration-150' href="https://www.youtube.com/@BEASTCRIMES">
-                <FaYoutube className="text-red-700" size="2em" />
-              </a>
             </div>
           </div>
         </div>

@@ -17,11 +17,6 @@ const Footer = () => {
                           <a  className='hover:opacity-80 duration-150 mx-3' href="mailto:beastcrimes@gmail.com">
           <FaEnvelope className="text-red-700 text-3xl mr-2" />
         </a>
-
-          {/* YouTube Icon */}
-          <a  className='hover:opacity-80 duration-150 mx-3' href="https://www.youtube.com/@BEASTCRIMES">
-          <FaYoutube className="text-red-700 text-3xl mr-2" />
-        </a>
         
       </div>
       
