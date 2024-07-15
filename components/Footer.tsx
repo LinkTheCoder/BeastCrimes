@@ -25,7 +25,6 @@ const Footer = () => {
       
       <div className='mt-5 text-center mx-auto mb-16 lg:mb-5'>
         <ul className='text-red-800 font-semibold text-center mx-auto'>
-          <p><a className='hover:text-red-900' href="https://www.linkthedev.com/">LINK HÄGGMAN</a></p>
         </ul>
       </div>
     </div> 
