@@ -10,6 +10,7 @@ import { FaXmark } from "react-icons/fa6";
 
 const Header = () => {
   const [showVideo, setShowVideo] = useState(false);
+  const videoSrc = "/video/trailer.mp4";
 
   const openVideoModal = () => {
     setShowVideo(true);
@@ -22,8 +23,8 @@ const Header = () => {
   return (
     <div id="home" className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 h-screen'>
       {/* Left Column */}
-      <div className='lg:ml-20 relative flex flex-col justify-center text-white p-4 lg:order-first md: order-last'>
-        <Image className="lg:w-3/4 mx-auto sm:w-full" src={Logo} alt="/" />
+      <div className='lg:ml-20 relative flex flex-col justify-center text-white p-4 lg:order-first md:order-last'>
+        <Image className="lg:w-3/4 mx-auto sm:w-full" src={Logo} alt="Logo" />
 
         <h2 className='mt-5 text-3xl text-red-800 font-normal text-center'>
           CRIMES ACROSS TIMES
@@ -51,7 +52,7 @@ const Header = () => {
         <Image
           className='w-full h-full object-cover object-left lg:object-left'
           src={Wallpaper}
-          alt=''
+          alt='Wallpaper'
         />
         <div className='absolute w-full h-full top-0 left-0 bg-black/10'></div>
       </div>
@@ -63,13 +64,10 @@ const Header = () => {
             <div className="absolute top-0 right-0 m-1 cursor-pointer z-20" onClick={closeVideoModal}>
               <FaXmark size='1.7em' color="white" />
             </div>
-            <iframe
-        className="w-full h-full z-10"
-        src="https://www.youtube.com/embed/OfE2gTgn2oQ"
-        title="YouTube Video"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+            <video className="w-full h-full z-10" controls>
+              <source src={videoSrc} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       )}
