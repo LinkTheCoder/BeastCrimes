@@ -10,7 +10,7 @@ import { FaXmark } from "react-icons/fa6";
 
 const Header = () => {
   const [showVideo, setShowVideo] = useState(false);
-  const videoSrc = "/video/trailer.mp4";
+  const videoSrc = "/video/Trailer.mp4";
 
   const openVideoModal = () => {
     setShowVideo(true);
